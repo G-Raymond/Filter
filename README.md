@@ -1,6 +1,6 @@
 
 ***GPUImage自定义抖音分屏滤镜***
-
+![avatar](https://github.com/mr-common/Filter/blob/master/GPUImage/assest/281576993070_.pic_hd.jpg?raw=true)
 ```
 //分屏GLSL
 precision highp float;

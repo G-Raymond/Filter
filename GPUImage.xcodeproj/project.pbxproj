@@ -23,6 +23,7 @@
 		86C5F6A823AF1B400069B4A6 /* Cirlce.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 86C5F6A623AF1B400069B4A6 /* Cirlce.vsh */; };
 		86C5F6A923AF1B400069B4A6 /* Cirlce.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 86C5F6A723AF1B400069B4A6 /* Cirlce.fsh */; };
 		86DF38B423AF28E30043DF4D /* GPUImageCircleFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 86DF38B323AF28E30043DF4D /* GPUImageCircleFilter.m */; };
+		86DF38B723AF36C50043DF4D /* 271576992528_.pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86DF38B623AF36C50043DF4D /* 271576992528_.pic.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		86C5F6A723AF1B400069B4A6 /* Cirlce.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Cirlce.fsh; sourceTree = "<group>"; };
 		86DF38B223AF28E30043DF4D /* GPUImageCircleFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPUImageCircleFilter.h; sourceTree = "<group>"; };
 		86DF38B323AF28E30043DF4D /* GPUImageCircleFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUImageCircleFilter.m; sourceTree = "<group>"; };
+		86DF38B623AF36C50043DF4D /* 271576992528_.pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 271576992528_.pic.jpg; sourceTree = "<group>"; };
 		FE1B7B6A3A04A2AC7D348D36 /* Pods-GPUImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImage/Pods-GPUImage.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,6 +98,7 @@
 		8657B430237A8230007505CB /* GPUImage */ = {
 			isa = PBXGroup;
 			children = (
+				86DF38B523AF36B10043DF4D /* assest */,
 				86B1DD3F2397659E008216B6 /* Video */,
 				8657B44B237A8631007505CB /* Source */,
 				8657B447237A84B5007505CB /* Picture */,
@@ -145,6 +148,14 @@
 				86DF38B323AF28E30043DF4D /* GPUImageCircleFilter.m */,
 			);
 			path = Video;
+			sourceTree = "<group>";
+		};
+		86DF38B523AF36B10043DF4D /* assest */ = {
+			isa = PBXGroup;
+			children = (
+				86DF38B623AF36C50043DF4D /* 271576992528_.pic.jpg */,
+			);
+			path = assest;
 			sourceTree = "<group>";
 		};
 		B038E895D4F9F6338F1C096C /* Pods */ = {
@@ -219,6 +230,7 @@
 				8657B44F237A8D89007505CB /* timg.jpg in Resources */,
 				8657B43E237A8232007505CB /* LaunchScreen.storyboard in Resources */,
 				8657B43B237A8232007505CB /* Assets.xcassets in Resources */,
+				86DF38B723AF36C50043DF4D /* 271576992528_.pic.jpg in Resources */,
 				8657B439237A8230007505CB /* Main.storyboard in Resources */,
 				86C5F6A923AF1B400069B4A6 /* Cirlce.fsh in Resources */,
 				86C5F6A823AF1B400069B4A6 /* Cirlce.vsh in Resources */,

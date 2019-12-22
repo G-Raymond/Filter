@@ -32,7 +32,7 @@
 }
 -(NSArray *)dataSource{
     if (!_dataSource) {
-        _dataSource = @[@"图片",@"拍摄",@"视频",@"水印"];
+        _dataSource = @[@"图片",@"",@"视频",@""];
         _tableView.dataSource = self;
     }
     return _dataSource;

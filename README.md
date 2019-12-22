@@ -18,7 +18,7 @@ y = uv.y - 0.25;
 gl_FragColor = texture2D(inputImageTexture, vec2(uv.x, y));
 }
 ```
-
+![avatar](https://github.com/mr-common/Filter/blob/master/GPUImage/assest/271576992528_.pic.jpg)
 ```
 //漩涡扭曲滤镜GLSL
  precision mediump float;

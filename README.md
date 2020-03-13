@@ -1,5 +1,9 @@
+***使用OpenGLES结合GPUImage实现抖音滤镜***
+**GPUImageWhirlpoolFilter.h**
+**GPUImageCircleFilter.h**
 
-***GPUImage自定义抖音分屏滤镜***
+***分屏滤镜***
+
 ![avatar](https://github.com/mr-common/Filter/blob/master/GPUImage/assest/281576993070_.pic_hd.jpg?raw=true)
 ```
 //分屏GLSL
@@ -18,6 +22,8 @@ y = uv.y - 0.25;
 gl_FragColor = texture2D(inputImageTexture, vec2(uv.x, y));
 }
 ```
+
+***漩涡滤镜***
 ![avatar](https://github.com/mr-common/Filter/blob/master/GPUImage/assest/271576992528_.pic.jpg)
 ```
 //漩涡扭曲滤镜GLSL
